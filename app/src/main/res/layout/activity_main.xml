@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qqdemo.administrator.ad0328.MainActivity">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="left|top"
+        android:background="#508899"
+        android:gravity="center"
+        android:text="width:30%,height:20%"
+        app:layout_heightPercent="20%"
+        app:layout_widthPercent="30%"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#5088bf"
+        android:gravity="center"
+        android:text="width:30%,height:20%"
+        app:layout_heightPercent="20%"
+        app:layout_marginLeftPercent="30%"
+        app:layout_widthPercent="30%"/>
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:background="#80600f"
+        android:gravity="center"
+        android:text="width:10%,height:90%"
+        android:textSize="5dp"
+        app:layout_heightPercent="90%"
+        app:layout_marginLeftPercent="60%"
+        app:layout_widthPercent="10%"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:background="#8877ff"
+        android:gravity="center"
+        android:text="width:100%,height:10%"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="100%"/>
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:src="@mipmap/bb"
+        android:scaleType="centerCrop"
+        app:layout_marginTopPercent="20%"
+        app:layout_heightPercent="70%"
+        app:layout_widthPercent="60%"
+        />
+
+    <Button
+        android:layout_gravity="right|top"
+        app:layout_heightPercent="20%"
+        app:layout_widthPercent="30%"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_marginLeftPercent="70%"
+        android:gravity="center"
+        android:text="按 钮"
+        />
+    <ScrollView
+    android:layout_gravity="right|top"
+    app:layout_heightPercent="70%"
+    app:layout_widthPercent="30%"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:layout_marginLeftPercent="70%"
+    app:layout_marginTopPercent="20%"
+    android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_str"/>
+
+    </ScrollView>
+
+</android.support.percent.PercentFrameLayout>
